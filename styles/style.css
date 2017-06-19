@@ -63,7 +63,7 @@ header{
     background-attachment: fixed;
     background-position: center;
 }
-.nosotros-empresa, .nuestra-cultura, .proximamente{
+.nosotros-empresa, .nuestra-cultura{
   height: auto;
   background: #1875D1; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #1875D1 , #2095F2); /* For Safari 5.1 to 6.0 */
@@ -71,7 +71,6 @@ header{
   background: -moz-linear-gradient(bottom right, #1875D1 , #2095F2); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #1875D1 , #2095F2); /* Standard syntax */
 }
-
 
 .btn-scroll a {
 	position: absolute;
