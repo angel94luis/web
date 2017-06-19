@@ -63,7 +63,7 @@ header{
     background-attachment: fixed;
     background-position: center;
 }
-.nosotros-empresa, .nuestra-cultura{
+.nosotros-empresa, .nuestra-cultura, .proximamente{
   height: auto;
   background: #1875D1; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #1875D1 , #2095F2); /* For Safari 5.1 to 6.0 */
