@@ -365,7 +365,7 @@ function slideComplete( args ) {
 
 
 	<!-- Small modal -->
-<!-- 
+
 <div id="myModal" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
@@ -377,7 +377,7 @@ function slideComplete( args ) {
       ¡Mensaje enviado correctamente!
      </div>
   </div>
-</div> -->
+</div>
   </body>
 </html>
 <script>
@@ -411,7 +411,7 @@ function slideComplete( args ) {
                url:'message.php',
                data:{name:name, email:email, message:message},
                beforeSend:function(){
-				$('#myModal').modal('show')
+				$('#myModal').modal('show');
                },
                success:function(){
                
