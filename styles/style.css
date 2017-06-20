@@ -55,6 +55,8 @@ nav ul li{
 }
 .menu-responsive ul li{
 	color: black;
+	width: 190px;
+    padding: 19px;
 }
 header{
 	background-image: url(../img/header-fondo/texture.png), url(../img/header-fondo/n-bg3.jpg);
@@ -216,6 +218,23 @@ label, footer p{
 	font-weight: 500;
     color: #808485;
 }
+
+.modal-content{
+	    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-size: 23px;
+    border-radius: 3px;
+}
+.modal-content .icon-cross{
+	float: right;
+    margin-top: -66px;
+    padding: 15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
 
 
 /* Smartphones (portrait and landscape) ----------- */

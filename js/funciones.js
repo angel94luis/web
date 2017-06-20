@@ -99,7 +99,9 @@ $(document).ready(function(){
         $('.menu-responsive').css('right', '0');
     });
 
-     $('.icon-cross, .menu-responsive a').click(function(){
+     $('.c-icon-cross .icon-cross, .menu-responsive a').click(function(){
         $('.menu-responsive').css('right', '-290px');
     });
 });
+
+
