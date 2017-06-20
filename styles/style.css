@@ -43,7 +43,7 @@ nav ul{
 	margin: 42px;
 }
 nav ul li{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bold;
 	color: white;
 	text-transform: uppercase;
@@ -183,14 +183,116 @@ section.footer .derechos{
     transition: 0.5s;
 }
 
-@media(min-width: 768px){
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1020px) and (orientation : portrait) {
+/*nav ul.menu-pc{
+  display: none;
+  }
+ .menu-responsive{
+  right: -290px !important;
+  }
+
+  .icon-menu{
+  display: block;
+  }*/
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2){
+nav ul.menu-pc{
+  display: none;
+  }
+}
+
+/* iPhone 6 portrait */
+@media only screenand (min-device-width: 375px)and (max-device-width: 667px)and (orientation: portrait)and (-webkit-min-device-pixel-ratio: 2){ 
+nav ul.menu-pc{
+  display: none;
+  }
+}
+
+/* iPhone 6 Plus landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3){
+nav ul.menu-pc{
+  display: none;
+  }
+}
+
+/* iPhone 6 Plus portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3){ 
+nav ul.menu-pc{
+  display: none;
+  }
+}
+
+/* iPhone 6 and 6 Plus */
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){ 
+nav ul.menu-pc{
+  display: none;
+  }
+}
+
+/* Apple Watch */
+@media (max-device-width: 42mm) and (min-device-width: 38mm){ 
+
+}
+
+@media(max-width: 768px){
+/*  nav ul.menu-pc{
+  display: none;
+  }*/
+}
+
+@media screen and (min-width: 990px){
   .menu-responsive{
   right: -290px !important;
   }
 }
 
-@media(max-width: 768px){
-  nav ul.menu-pc{
+
+
+@media screen and (max-width: 990px) { 
+nav ul.menu-pc{
   display: none;
   }
 }
