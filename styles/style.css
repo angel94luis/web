@@ -176,11 +176,14 @@ section.footer .derechos{
     background: white;
     height: 632px;
     width: 286px;
-    position: absolute;
     right: -290px;
     /* right: 0; */
     top: 0;
     transition: 0.5s;
+    overflow-y: scroll;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
 }
 
 
@@ -211,16 +214,9 @@ section.footer .derechos{
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1020px) and (orientation : portrait) {
-/*nav ul.menu-pc{
-  display: none;
-  }
- .menu-responsive{
-  right: -290px !important;
-  }
-
-  .icon-menu{
-  display: block;
-  }*/
+.nosotros-personal .textos-margin{
+	text-align: center;
+}
 }
 
 /* Desktops and laptops ----------- */
@@ -249,6 +245,9 @@ nav ul.menu-pc{
 nav ul.menu-pc{
   display: none;
   }
+  .nosotros-personal .textos-margin{
+	text-align: center;
+	}
 }
 
 /* iPhone 6 Plus landscape */
@@ -256,6 +255,9 @@ nav ul.menu-pc{
 nav ul.menu-pc{
   display: none;
   }
+  .nosotros-personal .textos-margin{
+	text-align: center;
+}
 }
 
 /* iPhone 6 Plus portrait */
@@ -270,6 +272,10 @@ nav ul.menu-pc{
 nav ul.menu-pc{
   display: none;
   }
+
+  .nosotros-personal .textos-margin{
+	text-align: center;
+}
 }
 
 /* Apple Watch */
@@ -289,10 +295,11 @@ nav ul.menu-pc{
   }
 }
 
-
-
 @media screen and (max-width: 990px) { 
 nav ul.menu-pc{
   display: none;
   }
+  .nosotros-personal .textos-margin{
+	text-align: center;
+}
 }
