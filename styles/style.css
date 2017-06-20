@@ -15,9 +15,10 @@ a{
 	color: inherit;
 	transition: 0.5s;
 }
-a:hover{
+a:hover, a:focus{
 	text-decoration: none;
 	transition: 0.5s;
+	color: black;
 }
 .logo{
 	width: 144px;
@@ -162,7 +163,8 @@ header{
 }
 
 section.footer{
-	background-color: #1b1a1a;
+	/*background-color: #1b1a1a;*/
+	background-color: #082128;
 }
 section.footer .derechos{
 	background: black;
@@ -170,6 +172,7 @@ section.footer .derechos{
     text-align: center;
 	padding-top: 28px;
     padding-bottom: 17px;
+    color: #7c8081;
 }
 .menu-responsive{
     color: black;
@@ -184,6 +187,34 @@ section.footer .derechos{
     height: 100%;
     position: fixed;
     z-index: 10;
+    box-shadow: 8px -6px 23px black;
+}
+footer h3{
+	color: #979797;
+}
+form input, form textarea, form button{
+	border-radius: 3px !important;
+}
+.form-control{
+	background-color: #293c43;
+	border: none;
+	color: #e6e3e3;
+}
+form button{
+	width: 100%;
+    background: #1b81dd;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+form button:hover{
+    background: #1f8feb;
+    color: white !important;
+}
+
+label, footer p{
+	font-weight: 500;
+    color: #808485;
 }
 
 
@@ -217,6 +248,9 @@ section.footer .derechos{
 .nosotros-personal .textos-margin{
 	text-align: center;
 }
+.proximamente .textos-margin{
+	text-align: center;
+}
 }
 
 /* Desktops and laptops ----------- */
@@ -226,7 +260,12 @@ section.footer .derechos{
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
-/* Styles */
+header{
+	height: 1024px
+}
+header .text-center{
+	padding-top: 100px;
+}
 }
 
 /* iPhone 4 ----------- */
@@ -300,6 +339,9 @@ nav ul.menu-pc{
   display: none;
   }
   .nosotros-personal .textos-margin{
+	text-align: center;
+}
+.proximamente .textos-margin{
 	text-align: center;
 }
 }

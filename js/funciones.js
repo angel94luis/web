@@ -37,7 +37,8 @@ $(function() {
     $('a[href="#scroll"]').on('click', function(e) {
         e.preventDefault();
         // $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1000, 'linear');
-                $('html, body').animate({ scrollTop: '570px'}, 1000, 'linear');
+                // $('html, body').animate({ scrollTop: '570px'}, 1000, 'linear');
+                 $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top -65}, 500, 'linear');
     });
 });
 
