@@ -74,6 +74,12 @@ header{
   background: -moz-linear-gradient(bottom right, #1875D1 , #2095F2); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #1875D1 , #2095F2); /* Standard syntax */
 }
+.proximamente h3{
+	padding-bottom: 26px;
+}
+.proximamente p{
+	text-align: left;
+}
 
 .btn-scroll a {
 	position: absolute;
@@ -208,10 +214,14 @@ form button{
     color: white;
     text-transform: uppercase;
     border: none;
+    margin-top: 11px;
 }
 form button:hover{
     background: #1f8feb;
     color: white !important;
+}
+form:visited{
+	color: white;
 }
 
 label, footer p{
@@ -359,8 +369,12 @@ nav ul.menu-pc{
   }
   .nosotros-personal .textos-margin{
 	text-align: center;
-}
-.proximamente .textos-margin{
+ }
+.proximamente h3{
 	text-align: center;
-}
+ }
+   .row{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
