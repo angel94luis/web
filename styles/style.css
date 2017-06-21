@@ -1,6 +1,10 @@
 *{
 	font-family: Raleway;
 }
+#map {
+    height: 300px;
+    width: 100%;
+}
 .color-white{
 	color: white
 }
