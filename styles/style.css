@@ -66,6 +66,9 @@ header{
     background-attachment: fixed;
     background-position: center;
 }
+header h1{
+	margin-top: 255.5px;
+}
 .nosotros-empresa, .nuestra-cultura{
   height: auto;
   background: #1875D1; /* For browsers that do not support gradients */
