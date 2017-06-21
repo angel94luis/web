@@ -14,10 +14,19 @@ a{
 	text-decoration: none;
 	color: inherit;
 	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	
 }
 a:hover, a:focus{
 	text-decoration: none;
 	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
 	color: black;
 }
 .logo{
@@ -97,6 +106,10 @@ header h1{
 	letter-spacing: .1em;
 	text-decoration: none;
 	transition: opacity .3s;
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	-ms-transition: opacity .3s;
 	width: 160px;
     padding-bottom: 10px;
     margin-left: -79px;
@@ -192,8 +205,12 @@ section.footer .derechos{
     width: 286px;
     right: -290px;
     /* right: 0; */
-    top: 0;
+    top: 0; 
     transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
     overflow-y: scroll;
     height: 100%;
     position: fixed;
